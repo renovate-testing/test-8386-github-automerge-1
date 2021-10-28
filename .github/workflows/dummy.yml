@@ -1,2 +1,9 @@
-- name: dummy-action
-  uses: bitcoder/dummy-action@v10
+on:
+  pull_request:
+
+jobs:
+  dummy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dummy-step
+        uses: bitcoder/dummy-action@v10

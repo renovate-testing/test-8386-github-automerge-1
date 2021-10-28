@@ -1,0 +1,2 @@
+- name: dummy-action
+  uses: bitcoder/dummy-action@v10

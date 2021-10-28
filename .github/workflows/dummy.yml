@@ -5,5 +5,5 @@ jobs:
   dummy:
     runs-on: ubuntu-latest
     steps:
-      - name: dummy-step
-        uses: bitcoder/dummy-action@v10
+      - name: Star Wars quote action
+        uses: Skitionek/star-wars-quote-action@v0.0.2
